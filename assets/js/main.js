@@ -1,11 +1,10 @@
 "use strict";
-
 /*******************************************************
 1. Start by defining all the data needed for the game
 ********************************************************/
 
 // array with the bugs in their correct order (alphabetical)
-var bugIndexArray = [
+var turtle = [
 	"backswimmer",
 	"batbug",
 	"bedbug",
