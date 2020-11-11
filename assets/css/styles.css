@@ -1,0 +1,114 @@
+
+/* css */
+
+.hidden-btn {
+	position: absolute;
+	display: block;
+	z-index: 10;
+	width: 400px;
+	height: 400px;
+	border: 2px
+  solid grey;
+}
+
+#turtleid {
+
+}
+
+.impossibletitle {
+  font-family: Showcard Gothic;
+  text-align: center;
+  color: #392f5a;
+}
+
+.gamepane {
+  align-items: center;
+}
+
+.messageboardtitle {
+  font-family: Showcard Gothic;
+  color: #392f5a;
+  text-align: center;
+}
+
+.messageboardtext {
+  font-family: Calibri;
+  color: #392f5a;
+  text-align: left;
+}
+
+.overit {
+  border: none;
+  color: white;
+  background-color: #392f5a;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: Showcard Gothic;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*
+body{
+  color: #2e5266;
+  font-family: Corbel, sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.grayband{
+  background-color: #d3d0cb;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.whiteband{
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.title {
+  text-align: center;
+  font-size: 7em;
+  font-weight: 500;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.piechart{
+  padding-left: 50px;
+}
+
+.yaleimage{
+  padding-top: 90px;
+  padding-left: 80px;
+}
+*/
