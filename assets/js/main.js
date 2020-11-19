@@ -2,7 +2,7 @@
 
 var clicked = 0;
 
-$("#turtleid").on("click",function()) {
+$("#turtleid").on("click",function() {
 	clicked++;
 	console.log(clicked);
-}
+})
