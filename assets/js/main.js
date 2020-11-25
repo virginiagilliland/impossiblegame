@@ -30,10 +30,10 @@ $(".task1_correctBtn").on("click",function(){
 	// here update the number of errors
 //edit display to have check mark
 //move on to task 2
-console.log("correct!")
+$(this).addClass(checkmarktask1);
+console.log("correct!") //change to mark off task
+
 });
-
-
 
 
 
@@ -48,10 +48,8 @@ $(".task2_fakeBtn").on("click",function(){
 
 $(".task2_correctBtn").on("click",function(){
 	// here update the number of errors
-	console.log("correct!")
+	console.log("correct!") //change to mark off task
 	});
-
-
 
 
 
@@ -65,12 +63,26 @@ $(".task3_fakeBtn").on("click",function(){
 
 $(".task3_correctBtn").on("click",function(){
 		// here update the number of errors
-	errors ++;
 	console.log("correct!")
 	});
 
 
 
+
+
+
+
+
+$("#imoverit").on("click", imoverit);
+
+
+
+
+
+function imoverit(){
+alert("This game is all about Dark Patterns (a user interface that has been carefully crafted to trick users into doing things, such as buying insurance with their purchase or signing up for recurring bills. Task 1 plays off user expectation that buttons should work how you expect (Answer: click register instead of the x button). Task 2 shows how wording can be deceptive when trying to opt out of a service (Answer: click option 1). Task 3 shows how people are often tricked when trying to sign up for free services (Answer: click audit)");
+errors = 0;
+}
 
 function updatingerrorDisplay(){
 	$(".errorDisplay").html(errors)

@@ -101,11 +101,122 @@
 	border: 2px solid blue;
 }
 
+
 /* task 3 buttons */
 
+#task3butx {
+	top: 200px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+}
+
+#task3butregister {
+	top: 200px;
+	left: 200px;
+	width: 50px;
+	height: 50px;
+}
+
+#task3but6monfreetrial {
+	top: 200px;
+	left: 300px;
+	width: 50px;
+	height: 50px;
+}
+
+#correcttask3butaudit {
+	top: 200px;
+	left: 400px;
+	width: 50px;
+	height: 50px;
+}
+
+.task3_fakeBtn {
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid grey;
+}
+
+.task3_correctBtn {
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid blue;
+}
+
 /*I'm over it button */
+#imoverit {
+	color: purple;
+}
 
+#imoveritmessage {
+	position: absolute;
+	display: block;
+	border: 2px solid black;
+	height: 400px;
+	width: 500px;
+}
 
+/* task list check box code */
+#task1emptybox {
+	top: 300px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid green;
+}
+
+#task2emptybox {
+	top: 300px;
+	left: 200px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid green;
+}
+
+#task3emptybox {
+	top: 300px;
+	left: 300px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid green;
+}
+
+#checkmarktask1 {
+	top: 300px;
+	left: 400px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid yellow;
+}
+
+#checkmarktask2 {
+	top: 300px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+}
+
+#checkmarktask3 {
+	top: 300px;
+	left: 400px;
+	width: 50px;
+	height: 50px;
+}
 /*
 #turtleid {
 	color: blue;
