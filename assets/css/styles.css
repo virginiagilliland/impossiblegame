@@ -1,21 +1,112 @@
 
 /* css */
 
-.hidden-btn {
+/*task 1 buttons */
+#task1but0orange {
+	top: 10px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+}
+
+#task1but0red {
+	top: 10px;
+	left: 200px;
+	width: 50px;
+	height: 50px;
+}
+
+#task1but3 {
+	top: 10px;
+	left: 300px;
+	width: 50px;
+	height: 50px;
+}
+
+#task1but42 {
+	top: 10px;
+	left: 400px;
+	width: 50px;
+	height: 50px;
+}
+
+#task1butregister {
+	top: 10px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+}
+
+#correcttask1butx {
+	top: 10px;
+	left: 600px;
+	width: 50px;
+	height: 50px;
+}
+
+.task1_fakeBtn {
 	position: absolute;
 	display: block;
 	z-index: 10;
-	width: 400px;
-	height: 400px;
-	border: 2px
-  solid grey;
+	border: 2px solid grey;
+}
+
+.task1_correctBtn {
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid blue;
+}
+
+/* task 2 buttons */
+
+#correcttask2option1 {
+	top: 100px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+}
+
+#task2option2 {
+	top: 100px;
+	left: 200px;
+	width: 50px;
+	height: 50px;
+}
+#task2option3 {
+	top: 100px;
+	left: 300px;
+	width: 50px;
+	height: 50px;
+}
+
+#task2option4 {
+	top: 100px;
+	left: 400px;
+	width: 50px;
+	height: 50px;
+}
+
+.task2_fakeBtn {
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid grey;
+}
+
+.task2_correctBtn {
+	position: absolute;
+	display: block;
+	z-index: 10;
+	border: 2px solid blue;
 }
 
 
+/*
 #turtleid {
 	color: blue;
 }
-
+/*
 .impossibletitle {
   font-family: Showcard Gothic;
   text-align: center;
