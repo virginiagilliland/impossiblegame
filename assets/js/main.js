@@ -30,7 +30,7 @@ $(".task1_correctBtn").on("click",function(){
 	// here update the number of errors
 //edit display to have check mark
 //move on to task 2
-$(this).addClass(checkmarktask1);
+	$(this).addClass("checkmarktask1");
 console.log("correct!") //change to mark off task
 
 });
