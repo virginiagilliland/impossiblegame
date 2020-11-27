@@ -85,7 +85,18 @@ errors = 0;
 }
 
 function updatingerrorDisplay(){
-	$(".errorDisplay").html(errors)
+	if (errors <= numberErrorsAllowed) {
+			$(".errorDisplay").html(errors);
+	}	else {
+		errors = 0
+		$(".errorDisplay").html(errors)
+		imoverit()
+		/*reset to task 1 image and task 1 buttons*/
+	}
+}
+/*
+function updatingerrorDisplay() {
+		$(".errorDisplay").html(errors)
 }
 
 //if hit button "i'm over it show education pop up, x to close game?"
