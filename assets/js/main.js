@@ -16,7 +16,6 @@ var errors = 0;
 
 var numberErrorsAllowed = 3;
 // list all of the button listeners here
-// first button is the "fake" X button at the top of task 1
 
 
 
@@ -27,11 +26,9 @@ $(".task1_fakeBtn").on("click",function(){
 });
 
 $(".task1_correctBtn").on("click",function(){
-	// here update the number of errors
-//edit display to have check mark
-//move on to task 2
 	$("this").addClass("checkmarktask1");
-console.log("correct!") //change to mark off task
+console.log("correct!") //change to check mark task
+//move to task 2
 
 });
 
@@ -39,29 +36,28 @@ console.log("correct!") //change to mark off task
 
 
 $(".task2_fakeBtn").on("click",function(){
-	// here update the number of errors
 	errors ++;
 	updatingerrorDisplay();
 });
 
 
 $(".task2_correctBtn").on("click",function(){
-	// here update the number of errors
-	console.log("correct!") //change to mark off task
+	console.log("correct!") //change to check mark task
+	//move to task 3
 	});
 
 
 
+
 $(".task3_fakeBtn").on("click",function(){
-		// here update the number of errors
 	errors ++;
 	updatingerrorDisplay();
 	});
 
 
 $(".task3_correctBtn").on("click",function(){
-		// here update the number of errors
-	console.log("correct!")
+	console.log("correct!") //change to check mark task
+	//display congrats you completed game message
 	});
 
 
