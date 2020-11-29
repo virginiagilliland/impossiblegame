@@ -14,11 +14,16 @@
 
 .tasklistitems {
 	font-family: Calibri;
-	padding-left: 1em;
+	/*padding-left: 1em;*/
 	font-size: 1.8em;
-	padding-top: .7em;
+	/*padding-top: .7em;*/
 }
 
+#emptyboxtest {
+	width: 33px;
+	height: 33px;
+	border: 1px solid blue;
+}
 /*task 1 buttons */
 #task1but0orange {
 	top: 10px;
@@ -105,6 +110,34 @@
 	height: 50px;
 }
 
+#task2departments {
+	top: 100px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+}
+
+#task2inspiration {
+	top: 100px;
+	left: 600px;
+	width: 50px;
+	height: 50px;
+}
+
+#task2classes {
+	top: 100px;
+	left: 700px;
+	width: 50px;
+	height: 50px;
+}
+
+#task2search {
+	top: 100px;
+	left: 800px;
+	width: 50px;
+	height: 50px;
+}
+
 .task2_fakeBtn {
 	position: absolute;
 	display: block;
@@ -178,7 +211,7 @@
 }
 
 /* task list check box code */
-#task1emptybox {
+.task1emptybox {
 	top: 300px;
 	left: 100px;
 	width: 50px;
@@ -189,7 +222,7 @@
 	border: 2px solid green;
 }
 
-#task2emptybox {
+.task2emptybox {
 	top: 300px;
 	left: 200px;
 	width: 50px;
@@ -200,7 +233,7 @@
 	border: 2px solid green;
 }
 
-#task3emptybox {
+.task3emptybox {
 	top: 300px;
 	left: 300px;
 	width: 50px;

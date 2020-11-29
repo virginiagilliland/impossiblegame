@@ -26,7 +26,8 @@ $(".task1_fakeBtn").on("click",function(){
 });
 
 $(".task1_correctBtn").on("click",function(){
-	$("this").addClass("checkmarktask1");
+	//$(this).addClass("checkmarktask1");
+jQuery("#task1emptybox").addClass("checkmarktask1");
 console.log("correct!") //change to check mark task
 //move to task 2
 
