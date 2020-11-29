@@ -4,6 +4,8 @@
 .h1 {
 	font-family: Showcard Gothic;
 	text-align: center;
+	font-size: 3em;
+	padding: 1em;
 }
 
 .h2 {
@@ -12,6 +14,9 @@
 
 .tasklistitems {
 	font-family: Calibri;
+	padding-left: 1em;
+	font-size: 1.8em;
+	padding-top: .7em;
 }
 
 /*task 1 buttons */
