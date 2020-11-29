@@ -1,5 +1,18 @@
 
 /* css */
+/* css for html design */
+.h1 {
+	font-family: Showcard Gothic;
+	text-align: center;
+}
+
+.h2 {
+	font-family: Showcard Gothic;
+}
+
+.tasklistitems {
+	font-family: Calibri;
+}
 
 /*task 1 buttons */
 #task1but0orange {
