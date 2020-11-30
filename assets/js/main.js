@@ -29,7 +29,7 @@ $(".task1_correctBtn").on("click",function(){
 	//$(this).addClass("checkmarktask1");
 //jQuery(".task1emptybox").addClass("checkmarktask1");
 //jQuery(".task1emptybox").addClass("checkmarktask1");
-jQuery("#thisisthetest").removeClass("blankwhite");
+jQuery("#task1emptybox").removeClass("blankwhite");
 errors = 0;
 });
 
@@ -43,7 +43,8 @@ $(".task2_fakeBtn").on("click",function(){
 
 
 $(".task2_correctBtn").on("click",function(){
-	console.log("correct!") //change to check mark task
+	jQuery("#task2emptybox").removeClass("blankwhite2");
+	errors = 0;
 	//move to task 3
 	});
 
@@ -57,7 +58,8 @@ $(".task3_fakeBtn").on("click",function(){
 
 
 $(".task3_correctBtn").on("click",function(){
-	console.log("correct!") //change to check mark task
+	jQuery("#task3emptybox").removeClass("blankwhite3");
+	errors = 0;
 	//display congrats you completed game message
 	});
 

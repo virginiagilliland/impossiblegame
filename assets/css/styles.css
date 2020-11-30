@@ -211,17 +211,92 @@
 }
 
 /* task list check box code */
-.task1emptybox {
+#task1emptybox {
+	top: 300px;
+	left: 100px;
+}
+
+#task2emptybox {
+	top: 300px;
+	left: 200px;
+}
+
+#task3emptybox {
+	top: 300px;
+	left: 300px;
+}
+
+.blankwhite {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	z-index: 999999;
+	background-color: white;
+	border: 2px solid purple;
+	top: 300px;
+	left: 100px;
+}
+
+.blankwhite2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	z-index: 999999;
+	background-color: white;
+	border: 2px solid purple;
+	top: 300px;
+	left: 200px;
+}
+
+.blankwhite3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	z-index: 999999;
+	background-color: white;
+	border: 2px solid purple;
+	top: 300px;
+	left: 300px;
+}
+
+.imageposition1 {
+	position: absolute;
+	z-index: 999998;
 	top: 300px;
 	left: 100px;
 	width: 50px;
 	height: 50px;
-	position: absolute;
-	display: block;
-	z-index: -999999;
-	border: 2px solid green;
+	border: 2px solid purple;
 }
 
+.imageposition2 {
+	position: absolute;
+	z-index: 999998;
+	top: 300px;
+	left: 200px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid purple;
+}
+
+.imageposition3 {
+	position: absolute;
+	z-index: 999998;
+	top: 300px;
+	left: 300px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid purple;
+}
+/* top: 300px;
+left: 100px;
+width: 50px;
+height: 50px;
+position: absolute;
+display: block;
+z-index: -999999;
+border: 2px solid green; */
+/*
 .task2emptybox {
 	top: 300px;
 	left: 200px;
@@ -243,7 +318,8 @@
 	z-index: 10;
 	border: 2px solid green;
 }
-
+*/
+/*
 .checkmarktask1 {
 	top: 300px;
 	left: 100px;
@@ -254,7 +330,8 @@
 	z-index: 1000;
 	border: 2px solid yellow;
 }
-
+*/
+/*
 #checkmarktask2 {
 	top: 300px;
 	left: 500px;
@@ -272,7 +349,9 @@
 .errorDisplay {
 	color: blue;
 }
+
 /*playing around*/
+/*
 .checkmarktest {
 	background-image: url(https://line9communities.files.wordpress.com/2014/02/check-mark.jpg);
 	width: 50px;
@@ -282,25 +361,17 @@
 	fill: blue;
 }
 
-.blankwhite {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	z-index: 999999;
-	background-color: white;
-	border: 2px solid purple;
-	top: 1000px;
-	left: 1000px;
-}
-
 .imageposition {
 	position: absolute;
-	top: 1000px;
-	left: 1000px;
+	z-index: 999998;
+	top: 300px;
+	left: 100px;
 	width: 50px;
 	height: 50px;
 	border: 2px solid purple;
 }
+*/
+/*
 #thisisthetest {
 
 }
@@ -313,7 +384,7 @@
 #turtleid {
 	color: blue;
 }
-/*
+
 .impossibletitle {
   font-family: Showcard Gothic;
   text-align: center;
