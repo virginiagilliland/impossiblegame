@@ -30,11 +30,7 @@ $(".task1_correctBtn").on("click",function(){
 //jQuery(".task1emptybox").addClass("checkmarktask1");
 //jQuery(".task1emptybox").addClass("checkmarktask1");
 jQuery("#thisisthetest").removeClass("blankwhite");
-errors= 0;
-
-console.log("correct!") //change to check mark task
-//move to task 2
-
+errors = 0;
 });
 
 
