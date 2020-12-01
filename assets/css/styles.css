@@ -27,12 +27,13 @@
 	top: 212px;
 	left: 180px;
 }
-
+/*
 #emptyboxtest {
 	width: 33px;
 	height: 33px;
 	border: 1px solid blue;
 }
+*/
 /*task 1 buttons */
 #task1but0orange {
 	top: 10px;
@@ -62,14 +63,15 @@
 	height: 50px;
 }
 
-#task1butregister {
-	top: 10px;
-	left: 500px;
-	width: 50px;
-	height: 50px;
+#correcttask1butregister {
+	top: 380px;
+	left: 525px;
+	width: 165px;
+	height: 33px;
+	z-index: 10;
 }
 
-#correcttask1butx {
+#task1butx {
 	top: 10px;
 	left: 600px;
 	width: 50px;
