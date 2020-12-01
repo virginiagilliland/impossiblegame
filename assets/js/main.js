@@ -30,6 +30,8 @@ $(".task1_correctBtn").on("click",function(){
 //jQuery(".task1emptybox").addClass("checkmarktask1");
 //jQuery(".task1emptybox").addClass("checkmarktask1");
 jQuery("#task1emptybox").removeClass("blankwhite");
+jQuery("#image1task1").css("z-index", "-999999");
+
 errors = 0;
 });
 
@@ -44,6 +46,8 @@ $(".task2_fakeBtn").on("click",function(){
 
 $(".task2_correctBtn").on("click",function(){
 	jQuery("#task2emptybox").removeClass("blankwhite2");
+	jQuery("#image2task2").css("z-index", "-999998");
+
 	errors = 0;
 	//move to task 3
 	});
@@ -59,8 +63,9 @@ $(".task3_fakeBtn").on("click",function(){
 
 $(".task3_correctBtn").on("click",function(){
 	jQuery("#task3emptybox").removeClass("blankwhite3");
+	jQuery("#image3task3").css("z-index", "-999997");
+
 	errors = 0;
-	//display congrats you completed game message
 	});
 
 

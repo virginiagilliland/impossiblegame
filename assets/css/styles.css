@@ -208,7 +208,11 @@
 
 /*I'm over it button */
 #imoverit {
-	color: purple;
+	color: #ffffff;
+	background-color:#392f5a;
+	font-family: Showcard Gothic;
+	border: #392f5a;
+	text-align: center;
 }
 
 #imoveritmessage {
@@ -307,15 +311,23 @@
 
 /*image display code*/
 #image1task1 {
-
+	z-index: 4;
+	position: absolute;
 }
 
 #image2task2 {
-
+	z-index: 3;
+	position: absolute;
 }
 
 #image3task3 {
+	z-index: 2;
+	position: absolute;
+}
 
+#youwon {
+	z-index: 1;
+	position: absolute;
 }
 
 /* top: 300px;
