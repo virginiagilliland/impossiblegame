@@ -16,6 +16,12 @@ var errors = 0;
 var numberErrorsAllowed = 3;
 
 
+$(".task1_fakeBtn").show()
+$(".task1_correctBtn").show()
+$(".task2_fakeBtn").hide()
+$(".task2_correctBtn").hide()
+$(".task3_fakeBtn").hide()
+$(".task3_correctBtn").hide()
 
 $(".task1_fakeBtn").on("click",function(){
 	errors ++;
@@ -25,7 +31,10 @@ $(".task1_fakeBtn").on("click",function(){
 $(".task1_correctBtn").on("click",function(){
 jQuery("#task1emptybox").removeClass("blankwhite");
 jQuery("#image1task1").css("z-index", "-999999");
-
+$(".task1_fakeBtn").hide()
+$(".task1_correctBtn").hide()
+$(".task2_fakeBtn").show()
+$(".task2_correctBtn").show()
 errors = 0;
 });
 
@@ -41,7 +50,10 @@ $(".task2_fakeBtn").on("click",function(){
 $(".task2_correctBtn").on("click",function(){
 	jQuery("#task2emptybox").removeClass("blankwhite2");
 	jQuery("#image2task2").css("z-index", "-999998");
-
+	$(".task2_fakeBtn").hide()
+	$(".task2_correctBtn").hide()
+	$(".task3_fakeBtn").show()
+	$(".task3_correctBtn").show()
 	errors = 0;
 	});
 
@@ -57,7 +69,8 @@ $(".task3_fakeBtn").on("click",function(){
 $(".task3_correctBtn").on("click",function(){
 	jQuery("#task3emptybox").removeClass("blankwhite3");
 	jQuery("#image3task3").css("z-index", "-999997");
-
+$(".task3_fakeBtn").hide()
+$(".task3_correctBtn").hide()
 	errors = 0;
 	});
 
