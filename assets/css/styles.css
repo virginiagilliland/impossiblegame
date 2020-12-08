@@ -1,39 +1,30 @@
 
 /* css */
-/* css for html design */
 .h1 {
-	font-family: Showcard Gothic;
+	font-family: Showcard Gothic, sans-serif;
 	text-align: center;
 	font-size: 3em;
 	padding: 1em;
 }
 
 .h2 {
-	font-family: Showcard Gothic;
+	font-family: Showcard Gothic, sans-serif;
 }
 
 .tasklistitems {
-	font-family: Calibri;
-	/*padding-left: 1em;*/
+	font-family: Calibri, sans-serif;
 	font-size: 1.8em;
-	/*padding-top: .7em;*/
 }
 
 .errorDisplay {
 	color: #392f5a;
-	font-family: Showcard Gothic;
+	font-family: Showcard Gothic, sans-serif;
 	font-size: 1.8em;
 	position: absolute;
 	top: 212px;
 	left: 180px;
 }
-/*
-#emptyboxtest {
-	width: 33px;
-	height: 33px;
-	border: 1px solid blue;
-}
-*/
+
 /*task 1 buttons */
 #task1but0orange {
 	top: 172px;
@@ -211,7 +202,7 @@
 #imoverit {
 	color: #ffffff;
 	background-color:#392f5a;
-	font-family: Showcard Gothic;
+	font-family: Showcard Gothic, sans-serif;
 	border: #392f5a;
 	text-align: center;
 }
