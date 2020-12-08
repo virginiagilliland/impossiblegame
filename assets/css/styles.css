@@ -36,57 +36,56 @@
 */
 /*task 1 buttons */
 #task1but0orange {
-	top: 10px;
-	left: 100px;
-	width: 50px;
-	height: 50px;
+	top: 172px;
+	left: 354px;
+	width: 23px;
+	height: 23px;
 }
 
 #task1but0red {
-	top: 10px;
-	left: 200px;
-	width: 50px;
-	height: 50px;
+	top: 172px;
+	left: 372px;
+	width: 23px;
+	height: 23px;
 }
 
 #task1but3 {
-	top: 10px;
-	left: 300px;
-	width: 50px;
-	height: 50px;
+	top: 172px;
+	left: 390px;
+	width: 23px;
+	height: 23px;
 }
 
 #task1but42 {
-	top: 10px;
-	left: 400px;
-	width: 50px;
-	height: 50px;
+	top: 172px;
+	left: 408px;
+	width: 23px;
+	height: 23px;
 }
 
 #correcttask1butregister {
-	top: 380px;
-	left: 525px;
+	top: 218px;
+	left: 242px;
 	width: 165px;
 	height: 33px;
-	z-index: 10;
 }
 
 #task1butx {
-	top: 10px;
-	left: 600px;
-	width: 50px;
-	height: 50px;
+	top: 38px;
+	left: 415px;
+	width: 10px;
+	height: 10px;
 }
 
 .task1_fakeBtn {
-	position: absolute;
+	position: relative;
 	display: block;
 	z-index: 10;
 	border: 2px solid grey;
 }
 
 .task1_correctBtn {
-	position: absolute;
+	position: relative;
 	display: block;
 	z-index: 10;
 	border: 2px solid blue;
@@ -95,69 +94,69 @@
 /* task 2 buttons */
 
 #correcttask2option1 {
-	top: 100px;
-	left: 100px;
-	width: 50px;
-	height: 50px;
+	top: 188px;
+	left: -185px;
+	width: 15px;
+	height: 15px;
 }
 
 #task2option2 {
-	top: 100px;
-	left: 200px;
-	width: 50px;
-	height: 50px;
+	top: 207px;
+	left: 75px;
+	width: 15px;
+	height: 15px;
 }
 #task2option3 {
-	top: 100px;
-	left: 300px;
-	width: 50px;
-	height: 50px;
+	top: 227px;
+	left: 60px;
+	width: 15px;
+	height: 15px;
 }
 
 #task2option4 {
-	top: 100px;
-	left: 400px;
-	width: 50px;
-	height: 50px;
+	top: 247px;
+	left: 45px;
+	width: 15px;
+	height: 15px;
 }
 
 #task2departments {
-	top: 100px;
-	left: 500px;
-	width: 50px;
-	height: 50px;
+	top: 37px;
+	left: 20px;
+	width: 75px;
+	height: 19px;
 }
 
 #task2inspiration {
-	top: 100px;
-	left: 600px;
-	width: 50px;
-	height: 50px;
+	top: 37px;
+	left: 82px;
+	width: 65px;
+	height: 19px;
 }
 
 #task2classes {
-	top: 100px;
-	left: 700px;
+	top: 37px;
+	left: 121px;
 	width: 50px;
-	height: 50px;
+	height: 19px;
 }
 
 #task2search {
-	top: 100px;
-	left: 800px;
-	width: 50px;
-	height: 50px;
+	top: -12px;
+	left: 358px;
+	width: 24px;
+	height: 24px;
 }
 
 .task2_fakeBtn {
-	position: absolute;
+	position: relative;
 	display: block;
 	z-index: 10;
 	border: 2px solid grey;
 }
 
 .task2_correctBtn {
-	position: absolute;
+	position: relative;
 	display: block;
 	z-index: 10;
 	border: 2px solid blue;
@@ -195,14 +194,14 @@
 }
 
 .task3_fakeBtn {
-	position: absolute;
+	position: relative;
 	display: block;
 	z-index: 10;
 	border: 2px solid grey;
 }
 
 .task3_correctBtn {
-	position: absolute;
+	position: relative;
 	display: block;
 	z-index: 10;
 	border: 2px solid blue;
