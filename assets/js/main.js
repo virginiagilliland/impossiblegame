@@ -71,6 +71,7 @@ $(".task3_correctBtn").on("click",function(){
 	jQuery("#image3task3").css("z-index", "-999997");
 $(".task3_fakeBtn").hide()
 $(".task3_correctBtn").hide()
+alert("Congrats! Did you know what was going on here? This game was all about Dark Patterns: a user interface that has been carefully crafted to trick users into doing things, such as buying insurance with their purchase or signing up for recurring bills (Brignall). You must've caught that in task 1- buttons may not always work as they seem (violating user expectations). And in task 2 you likely understood email websites can use tricky language to prevent customers from opting out. And in task 3- congrats on not falling for the trial scam (aka forced continuity).")
 	errors = 0;
 	});
 
