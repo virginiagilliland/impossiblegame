@@ -72,68 +72,68 @@
 	position: relative;
 	display: block;
 	z-index: 10;
-	border: 2px solid grey;
+	/*border: 2px solid grey;*/
 }
 
 .task1_correctBtn {
 	position: relative;
 	display: block;
 	z-index: 10;
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 }
 
 /* task 2 buttons */
 
 #correcttask2option1 {
-	top: 188px;
+	top: 222px;
 	left: -185px;
 	width: 15px;
 	height: 15px;
 }
 
 #task2option2 {
-	top: 207px;
+	top: 240px;
 	left: 75px;
 	width: 15px;
 	height: 15px;
 }
 #task2option3 {
-	top: 227px;
+	top: 260px;
 	left: 60px;
 	width: 15px;
 	height: 15px;
 }
 
 #task2option4 {
-	top: 247px;
+	top: 280px;
 	left: 45px;
 	width: 15px;
 	height: 15px;
 }
 
 #task2departments {
-	top: 37px;
+	top: 70px;
 	left: 20px;
 	width: 75px;
 	height: 19px;
 }
 
 #task2inspiration {
-	top: 37px;
+	top: 70px;
 	left: 82px;
 	width: 65px;
 	height: 19px;
 }
 
 #task2classes {
-	top: 37px;
+	top: 70px;
 	left: 121px;
 	width: 50px;
 	height: 19px;
 }
 
 #task2search {
-	top: -12px;
+	top: 21px;
 	left: 358px;
 	width: 24px;
 	height: 24px;
@@ -157,28 +157,28 @@
 /* task 3 buttons */
 
 #task3butx {
-	top: -51px;
+	top: 8px;
 	left: 551px;
 	width: 18px;
 	height: 17px;
 }
 
 #task3butregister {
-	top: 159px;
+	top: 216px;
 	left: 110px;
 	width: 112px;
 	height: 30px;
 }
 
 #task3but6monfreetrial {
-	top: 214px;
+	top: 272px;
 	left: 24px;
 	width: 90px;
 	height: 15px;
 }
 
 #correcttask3butaudit {
-	top: 230px;
+	top: 287px;
 	left: -73px;
 	width: 30px;
 	height: 15px;
@@ -188,7 +188,7 @@
 	position: relative;
 	display: block;
 	z-index: 10;
-	border: 2px solid grey;
+  border: 2px solid grey;
 }
 
 .task3_correctBtn {
